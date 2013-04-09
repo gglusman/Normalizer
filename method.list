@@ -1,0 +1,11 @@
+Method	Aliases	Description	PMID	First Author	Year	Citation
+CPM	cpm,tpm,rpkm	Scaling to a million reads per sample.	15289482	Meyers	2004	Genome Research 14:1641
+Total counts	total	Scaling to average number of reads in all samples.				
+Prevalent genes	prevalent	Scaling to average number of reads in prevalent genes.				
+Upper quartile	quartile,75,75%,bullard,top25,top 25	Scaling to top 25% expressed genes.	20167110	Bullard	2010	BMC Bioinformatics 11:94
+Upper decile	decile,90,90%,top10, top 10	Scaling to top 10% expressed genes.				
+Guide gene	guide,guides,gapdh	Scaling to a small set of pre-selected (housekeeping) control genes.	15543203	de Kok	2005	Lab Invest 85:154
+Stable guide genes	vandesompele	Scaling by minimizing the variance of a small predefined set of control genes, cleaned by "gene stability" measure.	12184808	Vandesompele	2002	Genome Biol 3:RESEARCH0034
+Gene stability	stability	Scaling by minimizing the variance of ten control genes, selected from the data by "gene stability" measure.				
+Network consistent scaling	network,net	Scaling by minimizing the variance of a large set of control genes, weighted by network centrality.				
+Quantile normalization	quantile,mar	Normalization of expression level distributions across samples.	19374774	Mar	2009	BMC Bioinformatics 10:110
