@@ -2,4 +2,6 @@ Manifest
 Normalizer.pm
 BaseClass.pm
 method.list
-COPYING
+LICENSE
+normalize.pl
+sample.data.gz
