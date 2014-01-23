@@ -11,7 +11,6 @@ use lib "/users/gglusman/scripts/Normalizer";
 use lib "/net/gestalt/cpan/Graph-0.91/lib";
 use lib "/net/gestalt/cpan/Graph-Centrality-Pagerank-1.03/lib";
 
-use Graph;
 use Graph::Undirected;
 use Graph::Centrality::Pagerank;
 use Storable;
