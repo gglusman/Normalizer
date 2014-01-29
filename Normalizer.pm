@@ -11,8 +11,8 @@ use lib "/users/gglusman/scripts/Normalizer";
 use lib "/net/gestalt/cpan/Graph-0.91/lib";
 use lib "/net/gestalt/cpan/Graph-Centrality-Pagerank-1.03/lib";
 
-use Graph::Undirected;
-use Graph::Centrality::Pagerank;
+use Graph::Undirected;  ### Source: http://search.cpan.org/~jhi/Graph-0.96/lib/Graph/Undirected.pm
+use Graph::Centrality::Pagerank;  ### Source: http://search.cpan.org/~kubina/Graph-Centrality-Pagerank-1.05/lib/Graph/Centrality/Pagerank.pm
 use Storable;
 
 sub initialize {
